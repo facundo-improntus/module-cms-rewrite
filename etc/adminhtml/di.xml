@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © PassKeeper, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:passkeeper:framework:ObjectManager/etc/config.xsd">
+    <type name="PassKeeper\Store\Model\ResourceModel\Store">
+        <plugin name="update_cms_url_rewrites_after_store_save" type="PassKeeper\CmsUrlRewrite\Plugin\Cms\Model\Store\View"/>
+    </type>
+</config>
